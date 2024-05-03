@@ -1,0 +1,4 @@
+GET  https://newsapi.org/v2/top-headlines?country=us&category=technology&apiKey=aa9ba412f57b4d6d90231935996f465c
+
+
+GET https://newsapi.org/v2/top-headlines/sources?apiKey=aa9ba412f57b4d6d90231935996f465c
