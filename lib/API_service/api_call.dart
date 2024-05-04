@@ -2,7 +2,7 @@ import 'package:http/http.dart' as http;
 import 'dart:convert';
 
 class NewsApi {
-  final String apiKey = '2b8a9e38a5634ef29dad890e5e6e557c'; // Replace with your actual API key
+  final String apiKey = 'aa9ba412f57b4d6d90231935996f465c'; // Replace with your actual API key
 
   Future<List<Map<String, dynamic>>> fetchNews(String category) async {
     final String baseUrl = 'https://newsapi.org/v2/top-headlines';
